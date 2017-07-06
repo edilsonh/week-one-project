@@ -3,64 +3,72 @@
   <head>
     <meta charset="utf-8">
     <title>Bent Creek Ceramics</title>
-
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
+
   <body>
+
     <header id="site-header">
       <img id="logo" src="images/bent-creek-logo.png">
-      <nav>
-        <a href="index.html" id="home_active">HOME</a>
-        <a href="about.html">ABOUT</a>
-        <a href="newsletter.html">NEWSLETTER</a>
-      </nav>
+      <section class="nav_buttons">
+        <nav>
+          <a href="index.html" id="home_active">HOME</a>
+          <a href="about.html">ABOUT</a>
+          <a href="newsletter.html">NEWSLETTER</a>
+        </nav>
+      </section>
+      <p></p>
+
     </header>
-    <div class="wrapper">
+
+    <section class="wrapper">
       <main>
         <section class="titles">
-          <h1>Bent Creek Ceramics</h1>
-          <p>Where art meets nature</p>
+          <h2>Bent Creek Ceramics</h2>
+          <h4>Where art meets nature</h4>
         </section>
 
         <section class="products">
 <!-- Used article tag here to keep the corresponding words and images together-->
-          <section>
+          <section class="top_image_section">
             <article>
-              <img src="images/product-1.jpg">
-              <p>Endless Possibilities</p>
+              <img src="images/product-1.jpg" class="first_row_images" id="first_image">
+              <p><span>Endless Possibilities</span></p>
             </article>
             <article>
-              <img src="images/product-2.jpg">
-              <p>Sets</p>
+              <img src="images/product-2.jpg" class="first_row_images">
+              <p><span>Sets</span></p>
             </article>
             <article>
-              <img src="images/product-3.jpg">
-              <p>Texture</p>
-            </article>
-            <article>
-              <img src="images/product-4.jpg">
-              <p>Tea Time</p>
+              <img src="images/product-3.jpg" class="first_row_images">
+              <p><span>Texture</span></p>
             </article>
           </section>
           <section>
             <article>
-              <img src="images/product-5.jpg">
-              <p>Jars and Containers</p>
+              <img src="images/product-4.jpg" class="second_row_images">
+              <p><span>Tea Time</span></p>
             </article>
             <article>
-              <img src="images/product-6.jpg">
-              <p>Wasabi and Saki</p>
+              <img src="images/product-5.jpg" class="second_row_images">
+              <p><span>Jars and Containers</span></p>
             </article>
             <article>
-              <img src="images/product-7.jpg">
-              <p>Sippin' on Sunshine</p>
+              <img src="images/product-6.jpg" class="second_row_images" id="sixth_image">
+              <p><span>Wasabi and Saki</span></p>
+            </article>
+            <article>
+              <img src="images/product-7.jpg" class="second_row_images">
+              <p><span>Sippin' on Sunshine</span></p>
             </article>
           </section>
         </section>
         <footer>
           <p>Copyright 2017, Bent Creek Ceramics</p>
         </footer>
-      </div>
+      </section>
       </main>
   </body>
+
 </html>
