@@ -29,7 +29,7 @@ body {
 }
 header {
   padding-bottom: 5px;
-  margin-bottom: -10px;
+  margin-bottom: -23px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,7 +37,7 @@ header {
   z-index: 1;
   position: sticky;
   top: 0px;
-  box-shadow: 0px 5px 5px 0px lightgrey;
+  box-shadow: 0px 2px 0px 0px lightgrey;
 }
 
 #logo {
@@ -70,6 +70,10 @@ a:hover {
     color: #968772;
 }
 
+h1 {
+  text-align: center;
+}
+
 h2 {
   font-weight: 600;
   font-size: 50px;
@@ -82,6 +86,7 @@ h4 {
 
 .wrapper {
   background-color: #F2F1E8;
+  padding-top: 20px;
 }
 
 
@@ -147,8 +152,116 @@ footer p {
   padding: 20px;
 }
 
+/*This section is for the newsletter page*/
+
 #newsletter_wrapper {
   background-image: url("images/background-2.jpg");
   background-size: cover;
   height: 512px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+fieldset {
+  text-align: center;
+  background-color: white;
+}
+
+input {
+  border: 0;
+  border-bottom: 2px solid #B7AEA4;
+  width: 400px;
+  padding: 20px 0 5px 0;
+  color: grey;
+}
+
+button {
+  background-color: #968774;
+  padding: 10px 45px;
+  margin: 20px 0;
+  border: 0;
+  color: white;
+}
+/* End of newsletter styling*?
+
+/*This section is for the about page*/
+#about-title {
+  font-size: 60px;
+}
+#birdhouse {
+  max-width: 150px;
+  max-height: 150px;
+  padding: 0 25px 25px 0;
+  float: left;
+}
+
+.intro-and-image {
+  display: inline;
+}
+
+blockquote {
+  padding: 20px;
+  border-left: 1px solid #978774;
+  margin: 0px 45px 0px 0px;
+  font-style: italic;
+}
+
+#mid-image {
+  background-image: url("images/background-3.jpg");
+  height: 300px;
+  background-size: cover;
+  align-items: center;
+}
+
+#image-words {
+  color: #F2F1E8;
+}
+
+.word-content {
+  padding: 0 93px;
+  line-height: 44px;
+  justify-content: flex-start;
+}
+
+.facilities-paragraph {
+  justify-content: flex-start;
+}
+
+#facilities-image {
+  max-width: 135px;
+  max-height: 135px;
+}
+
+.facilities-side-paragraph {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  line-height: 15px;
+}
+
+.facilities {
+  flex-wrap: nowrap;
+}
+
+#facilities-image-paragraph {
+  font-weight: lighter;
+}
+
+.monthly-plans-table {
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+table {
+  margin: -25px 0 35px 0;
+}
+
+table, th, tr, td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding: 10px;
+}
+.shaded-row {
+  background-color: #F2EADD
 }
